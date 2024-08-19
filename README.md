@@ -33,6 +33,12 @@ To set up the neural network:
 - The neural network consists of 4 layers (excluding the input layer) with sizes: 20, 7, 5, 10.
 - The network is trained with a learning rate of 0.009, for 100 epochs, and a batch size of 128.
 
+
+
+![image](https://github.com/user-attachments/assets/751678b4-b046-4e77-8e27-1afbbea69c49)
+
+
+
 ## Training Process
 
 The training process involves:
@@ -46,6 +52,12 @@ The training process involves:
    - Updating network parameters.
    - Recording training and validation costs at regular intervals.
    - Implementing early stopping based on validation cost.
+
+
+
+![image](https://github.com/user-attachments/assets/8aebb8fa-4cf5-44bd-ba27-b30dfc5b8fa8)
+
+
 
 ## Dropout Regularization
 
