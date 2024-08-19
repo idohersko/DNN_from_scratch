@@ -97,18 +97,28 @@ Dropout probabilities ranging from 0.1 to 0.9 were tested. A dropout probability
 
 Four configurations were tested, combining batch normalization and dropout:
 
-| Experiment | Batch Size | Epochs | Batchnorm | Dropout | Train Accuracy | Validation Accuracy | Test Accuracy |
-|------------|------------|--------|-----------|---------|----------------|---------------------|---------------|
-| 1          | 128        | 43     | No        | No      | 89.39%         | 88.81%              | 88.77%        |
-| 2          | 128        | 46     | No        | Yes, 0.5| 89.43%         | 89.20%              | 89.27%        |
-| 3          | 128        | 31     | Yes       | No      | 83.31%         | 83.66%              | 83.74%        |
-| 4          | 128        | 19     | Yes       | Yes, 0.5| 67.89%         | 67.67%              | 67.10%        |
+| Experiment | Batch Size | Epochs | Batchnorm | Dropout     | Train Accuracy | Validation Accuracy | Test Accuracy |
+|------------|------------|--------|-----------|-------------|----------------|---------------------|---------------|
+| 1          | 128        | 43     | No        | No          | 89.39%         | 88.81%              | 88.77%        |
+| **2**      | **128**    | **46** | **No**    | **Yes, 0.5**| **89.43%**     | **89.20%**          | **89.27%**    |
+| 3          | 128        | 31     | Yes       | No          | 83.31%         | 83.66%              | 83.74%        |
+| 4          | 128        | 19     | Yes       | Yes, 0.5    | 67.89%         | 67.67%              | 67.10%        |
+
+
+
+![image](https://github.com/user-attachments/assets/de57a41f-f714-4b47-8352-41c0a54018a4)
+
+![image](https://github.com/user-attachments/assets/5b905d6c-38cd-4ece-afdc-03154cb44b68)
+
+
+
+
 
 ## Conclusion
 
 Experiment 2, featuring a batch size of 128, 46 epochs, and a dropout probability of 0.5, delivered the best performance with a test accuracy of 89.27%. The use of batch normalization, although slightly increasing the computation time, did not yield better results in this context. This project provided valuable insights into the practical implementation and optimization of neural networks for image classification tasks.
 
-## Author
+## Contributors
 
-- Elran Oren – 205965908
-- Ido Hersko - 204809867
+- Elran Oren 
+- Ido Hersko
