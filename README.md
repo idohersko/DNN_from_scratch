@@ -74,6 +74,21 @@ To prevent overfitting, dropout regularization was integrated into the network. 
 
 Different batch sizes were tested to determine their impact on accuracy. The batch size of 128 provided the best results, balancing training efficiency and model accuracy.
 
+| Batch Size | Train Accuracy | Validation Accuracy | Test Accuracy | Epoch |
+|------------|----------------|---------------------|---------------|-------|
+| 16         | 10.47%         | 10.31%              | 10.28%        | 1     |
+| 32         | 85.41%         | 84.47%              | 85.64%        | 7     |
+| 64         | 87.45%         | 86.91%              | 87.18%        | 13    |
+| **128**    | **93.04%**     | **91.86%**          | **92.32%**    | **45**|
+| 256        | 91.51%         | 90.61%              | 90.99%        | 90    |
+| 512        | 89.05%         | 88.70%              | 88.92%        | 100   |
+| 1024       | 69.67%         | 70.36%              | 69.45%        | 100   |
+| 2048       | 26.86%         | 27.62%              | 27.33%        | 100   |
+
+![image](https://github.com/user-attachments/assets/d2b2a336-8fbf-4f24-ba34-aec8afa3ae8e)
+
+
+
 ### Dropout Experiment
 
 Dropout probabilities ranging from 0.1 to 0.9 were tested. A dropout probability of 0.5 was identified as optimal, improving the model's generalization on unseen data.
