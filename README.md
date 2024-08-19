@@ -1,5 +1,12 @@
 # Neural Network from Scratch - MNIST Classification
 
+
+
+![image](https://github.com/user-attachments/assets/fd16d9fa-0875-4875-bdf5-2fb821dd4332)
+
+
+
+
 This project showcases the development of a neural network built from scratch to classify handwritten digits using the MNIST dataset. The aim was to deeply understand the inner workings of neural networks by implementing both forward and backward propagation, experimenting with various configurations, and optimizing performance.
 
 ## Table of Contents
