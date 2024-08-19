@@ -63,6 +63,11 @@ The training process involves:
 
 To prevent overfitting, dropout regularization was integrated into the network. During training, dropout randomly deactivates a subset of neurons to ensure the network does not become too reliant on any single feature. The dropout probability was experimented with, and a value of 0.5 was found to be most effective.
 
+
+![image](https://github.com/user-attachments/assets/2e96406d-ec19-42e4-b9c2-8047cfe4d450)
+
+
+
 ## Results
 
 ### Batch Size Experiment
