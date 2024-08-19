@@ -20,7 +20,7 @@ This project showcases the development of a neural network built from scratch to
 
 ## Overview
 
-In this project, I built a fully connected neural network from the ground up and applied it to the MNIST dataset. The objective was to gain a deeper insight into how neural networks function and how they can be fine-tuned to achieve optimal performance. The project involved experimenting with different network architectures, batch sizes, learning rates, and regularization techniques like dropout.
+In this project, I built a fully connected neural network from the ground up and applied it to the MNIST dataset. The objective was to gain a deeper insight into how neural networks function and how they can be fine-tuned to achieve optimal performance. The project involved experimenting with different network architectures, batch sizes, learning rates, and regularization techniques like dropout. 
 
 ## Setup
 
